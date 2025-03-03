@@ -16,7 +16,7 @@ function Hero() {
       method: 'POST',
       url: 'https://ai-text-to-image-generator-api.p.rapidapi.com/realistic',
       headers: {
-        'x-rapidapi-key': '7aedc098f1msh094db9ba4dc3977p1e1a89jsne964ba69178d',
+        'x-rapidapi-key': 'e942c33e36msh1bb79f4d94b6c51p194bbejsnf225aa9a0caf',
         'x-rapidapi-host': 'ai-text-to-image-generator-api.p.rapidapi.com',
         'Content-Type': 'application/json'
       },
