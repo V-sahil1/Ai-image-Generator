@@ -1,5 +1,4 @@
 import { Button } from '@/components/ui/button';
-import { Separator } from '@radix-ui/react-separator';
 import React from 'react'
 type props ={
     price:string;
