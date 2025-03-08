@@ -1,7 +1,7 @@
 "use client"
 import { Button } from '@/components/ui/button'
 import axios from 'axios';
-import { Divide, Loader } from 'lucide-react';
+import {Loader} from 'lucide-react';
  
 import React, { useState } from 'react'
 import { toast } from 'sonner';
@@ -55,8 +55,9 @@ function Hero() {
     <div className='w-[95%] min-h-screen relative mx-auto mt-[20vh]'>
         {/* content */}
         <div className='relative z-10 text-white flex flex-col items-center justify-center '>
-            <h1 className='text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-center bg-gradient-to-r from-orange-300 to-cyan-500 bg-clip-text text-transparent'> Create Beautiful Image with <br /> Artificial Intelligence</h1>
-            <p className='mt-3 text-sm md:text-base font-semibold text-center text-gray-300'>Get started wuth our AI-powered Image generator tools</p>
+            <h1 data-aos="fade-up" className='text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-center bg-gradient-to-r from-orange-300 to-cyan-500 bg-clip-text text-transparent'> Create Beautiful Image with <br /> Artificial Intelligence</h1>
+            <p data-aos="fade-up" data-aos-delay='100'
+             className='mt-3 text-sm md:text-base font-semibold text-center text-gray-300'>Get started wuth our AI-powered Image generator tools</p>
             <div className='h-11 md:h-16 w-[95%] sm:w-[80%] md:w-[80%] lg:w-[70%] xl:w-[60%] bg-white rounded-lg mt-12 px-2 md:px-6 flex items-center justify-between '>
                 <input type="text" placeholder='Genrate Your Dream Image' className='h-full rounded-lg outline-none w-full text-black block flex-1 placeholder:text-xs sm:placeholder:text-base '
                 value={promt}
