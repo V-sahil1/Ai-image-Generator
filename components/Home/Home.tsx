@@ -8,6 +8,7 @@ import Review from './Review/Review'
 import Faq from './FAQ/Faq'
 import AOS from 'aos' ;
 import 'aos/dist/aos.css'; 
+import Blog from './Blog/Blog'
 
 function Home() {
   useEffect(()=>{
@@ -32,6 +33,7 @@ function Home() {
       <Price/>
       <Review/>
       <Faq/>
+      
     </div>
   )
 }
