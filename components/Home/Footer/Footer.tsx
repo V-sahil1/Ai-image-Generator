@@ -24,7 +24,7 @@ function Footer() {
                 
             </div>
         </div>
-        <div className='w-[80%] mx-auto text-gray-200 mt-4'>Ai image Genrator &copy; 2025. All Right Reserved</div>
+        <div className='w-[80%] mx-auto text-gray-200 mt-4'>Ai image Generator &copy; 2025. All Right Reserved</div>
     </div>
   )
 }

@@ -59,11 +59,11 @@ function Hero() {
             <p data-aos="fade-up" data-aos-delay='100'
              className='mt-3 text-sm md:text-base font-semibold text-center text-gray-300'>Get started wuth our AI-powered Image generator tools</p>
             <div className='h-11 md:h-16 w-[95%] sm:w-[80%] md:w-[80%] lg:w-[70%] xl:w-[60%] bg-white rounded-lg mt-12 px-2 md:px-6 flex items-center justify-between '>
-                <input type="text" placeholder='Genrate Your Dream Image' className='h-full rounded-lg outline-none w-full text-black block flex-1 placeholder:text-xs sm:placeholder:text-base '
+                <input type="text" placeholder='Generate Your Dream Image' className='h-full rounded-lg outline-none w-full text-black block flex-1 placeholder:text-xs sm:placeholder:text-base '
                 value={promt}
                 onChange={(e)=>setPromt(e.target.value)}/>
 
-                <Button onClick={handleimage} variant={"default"} size={"lg"} className=' bg-black text-white'>Genrate</Button>
+                <Button onClick={handleimage} variant={"default"} size={"lg"} className=' bg-black text-white'>Generate</Button>
             </div>
             {/* Tags */}
             <div className='flex items-center mt-8 space-x-4 flex-wrap space-y-3'>

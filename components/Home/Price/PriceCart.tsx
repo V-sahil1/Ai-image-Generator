@@ -40,7 +40,7 @@ function PriceCart({price,type,user}:props) {
               Scan QR Code to Pay &#8377;{price} 
             </h2>
             <QRCodeSVG
-              value={`upi://pay?pa=vardekarsahil34@okicici&pn=VARDEKARSAHIL&am=${price}&cu=INR&tn=aiImageGenrator`}
+              value={`upi://pay?pa=vardeka@okicici&pn=VA&am=${price}&cu=INR&tn=aiImageGenrator`}
             />
             <Button size={"lg"} onClick={() => setShowQR(false)} className='bg-gray-950  mt-4   px-4 py-2 rounded-lg text-white'
          >Close</Button>
